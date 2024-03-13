@@ -6,7 +6,7 @@ const TodoSchema = new Schema({
         type: String,
         required: true
     }, 
-    comeplete: {
+    complete: {
         type: Boolean,
         default: false
     },
